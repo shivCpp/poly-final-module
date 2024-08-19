@@ -24,8 +24,8 @@ const config: HardhatUserConfig = {
   },
   networks: {
     sepolia: {
-      url: "https://ethereum-sepolia.blockpi.network/v1/rpc/public",
-      accounts: ['3aa26f21d6b2418e899e79ffe3f65b27157186ae10ed5a2cec3d233fb62eb1c3'],
+      url: "https://ethereum-sepolia-rpc.publicnode.com"
+      accounts: ['b0ce560a32d78ef061ce96fc55a9fbbdafe2ff79a36bbe18eb05cd7f94296bee'],
     },
   },
   circom: {
